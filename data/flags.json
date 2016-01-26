@@ -1,0 +1,81 @@
+{
+
+    "posts" : {
+        "premium" : 4,
+        "backround" : 8,
+        "media" : 16,
+        "censored" : 32,
+        "badges" : {
+            "none" : 0,
+            "shield" : 64,
+            "staff" : 128
+        },
+        "channels" : {
+            "red" : 256,
+            "blue" : 2048,
+            "mod" : 32768
+        }
+    },
+
+    "mods" : {
+        "deleted" : 1,
+        "editmods" : 2,
+        "editmodvisibility" : 4,
+        "editbw" : 8,
+        "editrestrictions" : 16,
+        "editgroup" : 32,
+        "seecounter" : 64,
+        "seemodchannel" : 128,
+        "seemodactions" : 256,
+        "editautomod" : 512,
+        "editannc" : 1024,
+        "editadmins" : 2048,
+        "editsupermods" : 4096,
+        "bypass" : 8192,
+        "seeips" : 16384,
+        "close" : 32768,
+        "broadcast" : 65536,
+        "modbadge" : 131072,
+        "isstaff" : 262144,
+        "staffbadge" : 524288
+    },
+
+    "group" : {
+        "taxonomy" : 1,
+        "noanons" : 4,
+        "noflagging" : 8,
+        "nocounter" : 16,
+        "noimages" : 32,
+        "nolinks" : 64,
+        "novideos" : 128,
+        "nostyles" : 256,
+        "nolinks_chatango" : 512,
+        "nobroadcastbw" : 1024,
+        "ratelimited" : 2048,
+        "nochannels" : 8192,
+        "automod_basic" : 16384,
+        "automod_rep" : 32768,
+        "broadcastmode" : 65536,
+        "closednomods" : 131072,
+        "closed" : 262144,
+        "showbadges" : 524288,
+        "optionalbadges" : 1048576,
+        "automod_adv" : 2097152,
+        "noproxies" : 4194304,
+        "hasxml" : 268435456,
+        "unsafe" : 536870912
+    },
+
+    "deprecated" : "do not use",
+    "channels" : {
+        "red" : 256,
+        "blue" : 2048,
+        "mod" : 32768
+    },
+
+    "badges" : {
+        "none" : 0,
+        "shield" : 64,
+        "staff" : 128
+    }
+}

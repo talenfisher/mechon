@@ -64,18 +64,5 @@
         "noproxies" : 4194304,
         "hasxml" : 268435456,
         "unsafe" : 536870912
-    },
-
-    "deprecated" : "do not use",
-    "channels" : {
-        "red" : 256,
-        "blue" : 2048,
-        "mod" : 32768
-    },
-
-    "badges" : {
-        "none" : 0,
-        "shield" : 64,
-        "staff" : 128
     }
 }

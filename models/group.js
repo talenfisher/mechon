@@ -93,8 +93,8 @@ let Group = module.exports = class extends Room {
 
     [$compile]() {
         this[$extras] = 0;
-        this[$extras] += Flags.badges[this[$badge]];
-        for(let channel of this[$channels]) this[$extras] += Flags.channels[channel];
+        this[$extras] += Flags.posts.badges[this[$badge]];
+        for(let channel of this[$channels]) this[$extras] += Flags.posts.channels[channel];
     }
 
 

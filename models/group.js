@@ -340,11 +340,12 @@ let Group = module.exports = class extends Room {
         this[$channels] = channels;
         this[$compile]();
     }
-}
 
-Object.defineProperty(Group.prototype, 'title', {
-    get() { return this[$title]; },
-    set(title) {
+    // =======================
+    // Title Property
+    // =======================
+    get title() { return this[$title]; },
+    set title(title) {
         this[$requireFlag]("editgroup");
         new Request("http://chatango.com/updategroupprofile", {
            method : "POST",
@@ -360,11 +361,12 @@ Object.defineProperty(Group.prototype, 'title', {
         });
         this[$title] = title;
     }
-});
 
-Object.defineProperty(Group.prototype, 'description', {
-    get() { return this[$description]; },
-    set(description) {
+    // =======================
+    // Description Property
+    // =======================
+    get description() { return this[$description]; },
+    set description(description) {
         this[$requireFlag]("editgroup");
         new Request("http://chatango.com/updategroupprofile", {
            method : "POST",
@@ -380,4 +382,4 @@ Object.defineProperty(Group.prototype, 'description', {
         });
         this[$description] = description;
     }
-});
+}

@@ -1,6 +1,6 @@
 {
   "name": "mechon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Chatango Library written in JavaScript",
   "main": "mechon.js",
   "scripts": {

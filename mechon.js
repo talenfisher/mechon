@@ -217,4 +217,5 @@ class Mechon extends EventEmitter {
 Mechon.Flags = require('./data/flags.json');
 Mechon.Functions = require('./functions.js');
 Mechon.URLS = require('./urls.js');
+Mechon.Version = require('./package.json').version;
 module.exports = Mechon;
